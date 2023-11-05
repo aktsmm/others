@@ -1,0 +1,13 @@
+[boot]
+systemd = true  ## システム起動時にsystemdを有効にする
+
+[network]
+hostname = Ubuntu2004-WSL2  ## ホスト名を設定
+generateHosts = true  ## /etc/hosts ファイルの自動生成を無効化
+
+[interop]
+enabled = true  ## Windowsとの相互運用を有効化
+appendWindowsPath = true  ## Windowsのパスに自動的に追加
+
+[user]
+default = test-admin  ## デフォルトのユーザーを test-admin に設定
